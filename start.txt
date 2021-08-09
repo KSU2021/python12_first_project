@@ -1,0 +1,22 @@
+1. Создаем директорию проекта
+2. Создаем виртуальное окружение
+3. Создаем файл requirements.txt, куда указываем используемые библиотеки
+4. Устанавливаем библиотеки при помощи pip3 install -r requirements.txt
+5.  В pycharm открываем настройки: File -> Settings - > Project -> Python Interpreter и выбираете версию Python из окружения
+6. Проверить, что окружение активировано в терминале PyCharm
+7. Создаем Django - проект django-admin startproject название_проекта.
+8. Создаем нужные приложения python3  manage.py startapp название_приложения.
+
+
+
+##fuser -k 8000/tcp
+
+чтобы освободить порт:
+#1 lsof -i tcp:3000
+#2 kill -9 номер айди, который занимает порт
+
+
+
+git add .
+git commit -m 'Add project'
+git push origin master
